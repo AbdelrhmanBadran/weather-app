@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Weather App
+    </title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!--page_icon-->
+    <link rel="icon" href="./img/logo.png">
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container p-2 w-75">
+        <a class="navbar-brand d-flex text-white" href="#">
+          <img src="./img/logo.png" class="w-25 h-50 mt-2" alt="Logo_weather">
+          <div class="ms-3">
+            <h1 class="h4">weather</h1>
+            <p class="text">
+              tagline goes here
+            </p>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link fs-6 active text-white" aria-current="page" href="#">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 text-white" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 text-white" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 text-white" href="#">Contacts</a>
+            </li>
+          </ul>
+        
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar  -->
+
+
+  <!-- start banner  -->
+  <header class="">
+      <div class="container w-75">
+        <div class="weather-input">
+          <input type="text" id="cityInput" placeholder="Find Your Location ..." class="city-input">
+          <button class="find-btn">Find</button>
+        </div>
+    </div>
+  </header>
+
+  <section class="weather-result ">
+    <div class="container">
+      <div class="row rounded-3 overflow-hidden " id="result">
+        
+        
+    </div>
+  </section>
+
+
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <form action="#" >
+            <input type="text" placeholder="Enter your email to subscribe..." class=" d-inline form-control w-50 bg-transparent border">
+            <input type="submit" value="Subscribe" class="btn footer-btn text-white d-inline">
+          </form>
+        </div>
+        <div class="col-md-3 col-md-offset-1 ">
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-white mt-5">Copyright 2023 Company name. Designed by Badran. All rights reserved</p>
+    </div>
+  </footer> 
+
+    <!-- boostrap JS  -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- JS file -->
+    <script src="./js/mainIndex.js"></script>
+  </body>
+</html>

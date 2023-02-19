@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e202b;
+    /* height: 1500px; */
+
+}
+
+nav{
+    background-color: #1e202b;
+
+}
+.navbar-brand .text{
+    font-size: 10px;
+}
+
+.nav-link{
+    padding: 3px 5px;
+    margin: 0 10px;
+}
+
+.nav-link.active{
+    padding: 1px 15px !important;
+    border: 1px solid #029ed9;
+    color: #029ed9 !important;
+    border-radius: 11111px;
+}
+
+/******************************************/
+
+header{
+    background-image: url(../img/banner.png);
+    min-height: 400px;
+    z-index: -1;
+}
+.weather-input{
+    position: relative;
+    margin-top: 100px;
+    z-index: 1111;
+}
+.city-input{
+    background-color: #1e202b;
+    outline: none !important;
+    border: none !important;
+    /* margin-top: 150px; */
+    border-radius: 11111px !important;
+    padding: 15px 15px !important;
+    color: white !important;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    z-index: 11;
+
+    
+}
+
+.city-input:focus{
+    background-color: #1e202b;
+    outline: none !important;
+    border: none !important;
+    box-shadow:none;
+}
+.find-btn{
+    background-color: #029ed9;
+    color: white !important;
+    padding: 10px 50px !important;
+    border-radius: 11111px;
+    outline: none !important;
+    border: none !important;
+    position: absolute;
+    top: 155px;
+    left: calc(100% - 135px);
+    z-index: 11;
+}
+
+
+/*****************************************/
+
+
+.weather-result .container{
+    width: 70%;
+}
+
+
+.weather-result .container{
+    padding-top: 10px;
+    margin-top: -50px;
+
+} 
+.icon-waether{
+    width: 100px;
+}
+.temp{
+    font-size: 75px;
+    font-weight: 900;
+
+}
+.main-day{
+    background-color: #323544;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.row{
+    --bs-gutter-x: 0px;
+}
+
+.header1{
+    background-color: #222530;
+}
+.header2{
+background-color: #2a2d37 !important;
+}
+
+.caption1{
+    background-color: #262936;
+}
+.footer-btn{
+    background-color: #029ed9;
+    color: white !important;
+    padding: 10px 50px !important;
+}
+.footer-btn:hover{
+    background-color: #02a0d97f;
+
+}
+
+.social-links svg{
+    padding: 10px;
+    margin: 5px;
+    background-color: #222530;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #262936;
+    padding: 50px 0;
+}
+/*================================*/
+
+
+
+/*================================*/
